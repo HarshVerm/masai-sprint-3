@@ -12,12 +12,20 @@ function getData()
     console.log(dollar, currency)  
 
     let display = document.querySelector('h2')
-    if(dollar == 0)
+    if(dollar == 0 )
     {
-        display.style.visibility = 'hidden'
-        document.querySelector('#usd-error').style.visibility = "visible"
+        // display.style.visibility = 'hidden'
+        document.querySelector('#usd-error').style.display = "block"
         setTimeout(() => {
-            document.querySelector('#usd-error').style.visibility = "hidden"    
+            document.querySelector('#usd-error').style.display = "none"    
+        }, 4000);
+    }
+    else if( currency == "")
+    {
+        // display.style.visibility = 'hidden'
+        document.querySelector('#error').style.display = "block"
+        setTimeout(() => {
+            document.querySelector('#error').style.display = "none"    
         }, 4000);
     }
     else
