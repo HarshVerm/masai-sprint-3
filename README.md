@@ -12,16 +12,17 @@ Currency converter is a website which convert USD(US Dollar) in some other curre
 <h2>SCREENSHOTS</h2>
 
 <h3>Landing Page</h3>
-![screenshot](./images/1)
+
+![screenshot](./images/1.png)
 
 <h3>Input</h3>
-![screenshot](./images/2)
+![screenshot](./images/2.png)
 
 <h3>Convert Currency</h3>
-![screenshot](./images/3)
+![screenshot](./images/3.png)
 
 <h3>Foreign Exchange live graph</h3>
-![screenshot](./images/4)
+![screenshot](./images/4.png)
 
 ## Built With
 - HTML and CSS.
