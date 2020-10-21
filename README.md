@@ -44,4 +44,4 @@ $ git clone https://github.com/HarshVerm/masai-sprint-3/
 ## License
 -HARSH VERMA
 -linkdin@[Harsh Verma](https://www.linkedin.com/in/harsh-verma-008371158/) 
-- gitHub@[HarshVerm](https://github.com/HarshVerm)
+-gitHub@[HarshVerm](https://github.com/HarshVerm)
