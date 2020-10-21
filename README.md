@@ -7,7 +7,7 @@
 
 <h4 align="center">Website for online currency converter and check live foreign exchange.</h4>
 
-Currency converter is a website which convert USD(US Dollar) in some other currency and also the live or previous exchange value of the currency. 
+Currency converter is a website which convert USD(US Dollar) in some others currency and also check the live or previous exchange value of the currency. 
 
 <h2>SCREENSHOTS</h2>
 
@@ -16,18 +16,22 @@ Currency converter is a website which convert USD(US Dollar) in some other curre
 ![screenshot](./images/1.png)
 
 <h3>Input</h3>
+
 ![screenshot](./images/2.png)
 
 <h3>Convert Currency</h3>
+
 ![screenshot](./images/3.png)
 
 <h3>Foreign Exchange live graph</h3>
-![screenshot](./images/4.png)
+
+![screenshot](./images/5.png)
 
 ## Built With
 - HTML and CSS.
 - Javascript.
 - Google Font.
+- Currency Converter API.
 
 
 ### For developers
@@ -38,5 +42,6 @@ $ git clone https://github.com/HarshVerm/masai-sprint-3/
 ```
 
 ## License
-
-MASAI © [HARSH VERMA]
+-HARSH VERMA
+-linkdin@[Harsh Verma](https://www.linkedin.com/in/harsh-verma-008371158/) 
+- gitHub@[HarshVerm](https://github.com/HarshVerm)
