@@ -7,7 +7,7 @@
 
 <h4 align="center">Website for online currency converter and check live foreign exchange.</h4>
 
-Currency converter is a website which convert USD(US Dollar) in some others currency and also check the live or previous exchange value of the currency. 
+Currency converter is a website which convert USD(US Dollar) in others currency and also check the live or previous exchange value of the currency. 
 
 <h2>SCREENSHOTS</h2>
 
