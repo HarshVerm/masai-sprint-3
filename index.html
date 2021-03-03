@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://icon-library.com/images/recharge-icon/recharge-icon-4.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Currency Converter</title>
+</head>
+<body>
+    <!-- <img src="https://img.icons8.com/ios/50/000000/canadian-dollar.png"/> -->
+    <div  id="container">
+        <div id="heading"><h1>CURRENCY CONVERTER</h1></div>
+        
+        
+        <div id="output">
+            <p id="currency">Currency</p>
+            <h2>0</h2>
+            <button id="forexbtn">Show Trading Graph</button>
+        </div>
+        <form >
+            <!-- <div> -->
+                <input id="usd" name="usd" type="number" placeholder="Enter USD">   
+                <p id="usd-error">**Enter Dollar</p>
+            <!-- </div> -->
+
+            <!-- <div> -->
+                <select name="currency" >
+                    <option value="">--Select--</option>
+                    <option value="AED">United Arab Emirates Dirham</option>
+                    <option value="AFN">Afghan Afghani</option>
+                    <option value="ALL">Albanian Lek</option>
+                    <option value="AMD">Armenian Dram</option>
+                    <option value="AUD">Australian Dollar</option>
+                    <option value="CAD">Canadian Dollar</option>
+                    <option value="CNY">Chinese Yuan</option>
+                    <option value="EUR">Euro</option>
+                    <option value="GBP">Pound Sterling</option>
+                    <option value="HKD">Hong Kong Dollar</option>
+                    <option value="IDR">Indonesian Rupiah</option>
+                    <option value="INR">Indian Rupee</option>
+                    <option value="JPY">Japanese Yen</option>
+                    <option value="PLN">Polish Złoty</option>
+                    <option value="ZWL">Zimbabwean Dollar</option>
+                </select>
+                <p id="error">**Select Option</p>
+            <!-- </div> -->
+
+            
+                <input type="submit" value="Convert" id="btn">
+            
+
+        </form>
+        
+    </div>
+
+    <div id="modal">
+<div id="close-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="50" height="50"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M86,6.88c-43.69832,0 -79.12,35.42168 -79.12,79.12c0,43.69832 35.42168,79.12 79.12,79.12c43.69832,0 79.12,-35.42168 79.12,-79.12c0,-43.69832 -35.42168,-79.12 -79.12,-79.12zM111.4904,116.96h-9.26736l-16.22304,-24.41712h-0.688l-16.51888,24.41712h-8.7548l21.19728,-31.15264l-20.93928,-30.76736h9.31208l16.3056,24.6304h0.688l16.5636,-24.6304h8.79608l-21.45528,31.11136z"></path></g></g></svg>
+
+</div>
+<div class="tradingview-widget-container">
+    <div id="tradingview_de59d"></div>
+    <div class="tradingview-widget-copyright">AAPL Chart</span> by Harsh Verma</div>
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <!-- <script id="widget" type="text/javascript">
+
+// new TradingView.widget(
+//                 {
+//                 "width": 980,
+//                 "height": 610,
+//                 "symbol": "USDCAD",
+//                 "interval": "D",
+//                 "timezone": "Etc/UTC",
+//                 "theme": "light",
+//                 "style": "1",
+//                 "locale": "in",
+//                 "toolbar_bg": "#f1f3f6",
+//                 "enable_publishing": false,
+//                 "allow_symbol_change": true,
+//                 "container_id": "tradingview_de59d"
+//               }  
+//                 );
+    
+    </script> -->
+  </div>
+ 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

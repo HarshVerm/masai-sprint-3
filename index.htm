@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://icon-library.com/images/recharge-icon/recharge-icon-4.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Currency Converter</title>
+</head>
+<body>
+    <!-- <img src="https://img.icons8.com/ios/50/000000/canadian-dollar.png"/> -->
+    <div  id="container">
+        <div id="heading"><h1>CURRENCY CONVERTER</h1></div>
+        <form >
+            <div id="output">
+                <p id="currency">Currency</p>
+                <h2>0</h2>
+            </div>
+
+            <!-- <div> -->
+                <input id="usd" name="usd" type="number" placeholder="Enter USD">   
+                <p id="usd-error">**Enter Dollar</p>
+            <!-- </div> -->
+
+            <div>
+                <select name="currency" >
+                    <option value="">--Select--</option>
+                    <option value="EUR">Euro</option>
+                    <option value="GBP">Pound Sterling</option>
+                    <option value="CAD">Canadian Dollar</option>
+                    <option value="PLN">Polish Złoty</option>
+                </select>
+                <p id="error">**Select Option</p>
+            </div>
+
+            <div>
+                <input type="submit" value="Convert" id="btn">
+            </div>
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
